@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 85%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 35px;
+    color: #eb7620;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+
+nav ul li .active {
+    background-color: #eb7620;
+}
+
+.article {
+    text-align: center;
+}
+
+.article h1 {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p {
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.article .btn {
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+
+.article .btn:hover {
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
